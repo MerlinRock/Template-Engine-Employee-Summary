@@ -109,6 +109,7 @@ function prompt() {
                 return prompt();
             }
             var html = render(employees);
+            console.log(employees)
             fs.writeFileSync(outputPath, html, "UTF-8")
         })
         
