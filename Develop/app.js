@@ -71,7 +71,7 @@ const continueQuest = [
     {
         type: "confirm",
         name: "continue",
-        message: "Would you like to continue?",
+        message: "Would you like to add another employee?",
     },
 ]
 
